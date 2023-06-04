@@ -1,0 +1,54 @@
+// fibonaci --> the sum of the last two elements is the next number after the two elements . we know that the first two elements are [0, 1]
+// we create a function to add 2 elements , element a = 0 and element b = 1 
+// we add these two elements and then we have a value from them , where do we stock it ? In your number , the next number after the two element [0, 1] .
+// create a variable to take the value from the added element . let number = 0  ; 
+// and to see a response to know what you just wrote , we console.log(function()) with a value in it eg: 1 2 ; 
+
+function fibonaci() {
+     let elements = [0, 1];
+     for(let i = 2 ; i < n ; i++){
+     let elements[i] = elements[i-2] + elements[i -1 ] 
+     }
+     console.log(elements)
+     
+ }
+ 
+ console.log(fibonaci(2))
+ 
+ and we do experiments. 
+ 
+ Can we find the 4th element with this function ?
+ 
+Solution : 
+
+    elements = [ 0 , 1 ];
+    for ( let i = 2 ; i < 4 ; i ++ )
+            2 ; 2 < 4 ; 2++
+        elements(2) = elements(2 -2  ) + elements(2 - 1) 
+        the index 2 now represents element(2) = 0 + 1 = 1 -> the second element is 1 ;
+   Now the thirt element , same formula but with one more element
+   
+    i = 3 ; i < 4 ; i++ 
+      3 ; 3 < 4 ; i++
+      element(3) = elements(3-2) + elements(3 - 1 ) 
+      now the 3rd index has the value of 1 + 1 -> the third element is 2 
+      
+   And to find the 4th one we make another quick calculation 
+   
+   
+   elements( 4)  = elements (4- 2) + elements (4-1) 
+   the the 4th element from idex has the value of => 1 + 2 ; the 4th element has the value 3 ; 
+   
+   And we can go on ; but not so far . '
+    Let's make some experiments : 
+   What if we want to find a negative index ; 
+   Can we apply the same rule ? 
+   
+   Let's see : We want to find the elements[ -1 ] 
+        
+      elements[ -1 ] = elements[-1 - 2 ] + elements[-1 - 1 ] 
+       index -1 now is => the index of -3 + the index of -2 
+        so we can't apply this  formula  , because we dont know the value of those indexes .
+        let's see if we can find another formula for negative indexes.
+        
+        
