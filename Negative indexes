@@ -1,0 +1,17 @@
+last formula for positive numbers was this : 
+
+  let firstTwo = [0, 1];
+    for(let  i = 2 ; i < n ; i++){
+        firstTwo[i] = firstTwo[i - 2 ] + firstTwo[i - 1] 
+    }
+    
+ But with negative numbers doesnt work ; 
+ Let's create a negative formula.
+ 
+ for( let i = -1 ; i < -1 ; i--) {
+     firstTwo[-1] = firstTwo[-1 + 2 ] + firstTwo[-1 + 1] 
+     
+  Now the [-1 ] = index of 1 + index of 0 = 1 + 0 = 1  
+  
+  But does it work ? Let's try it!
+  
