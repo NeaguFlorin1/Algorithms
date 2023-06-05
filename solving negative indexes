@@ -1,2 +1,12 @@
 If we console log the last formula for negative indexes :
 
+Now the [-1 ] = index of 1 + index of 0 = 1 + 0 = 1  
+
+in console we get an output of [ 0 , 1 ] 
+
+for(let i = 2 ; i > n ; i--){
+        firstTwo[i] = firstTwo[i - 2 ] + firstTwo[i - 1]
+    }
+    return firstTwo
+    
+  
